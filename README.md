@@ -2,7 +2,6 @@
 
 ## Collaboraters:
 - Avitron
-- Alibaba Nizar
 - Sam w balls
 - Ella Fr
 
