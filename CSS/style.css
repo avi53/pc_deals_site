@@ -92,7 +92,7 @@ footer {
     background-image: linear-gradient(to right,darkslategrey, green);
     background-color: rgb(78, 159, 61);
     color: whitesmoke;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
