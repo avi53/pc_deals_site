@@ -17,14 +17,16 @@
     padding: 15px 16px;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Orbitron', sans-serif;
     font-family: 'Press Start 2P', cursive;
 }
 
 /*!* color changes when code is hovered over *!*/
 .top-bar a:hover {
+    transition: background-color 0.4s, color 0.4s, border-right 0.1s;
     background-color: whitesmoke;
     color: rgb(51, 48, 228);
+    border-right: solid;
+    border-width: 5px;
 }
 
 /*!* color that indicates what part of the site you are on *!*/
@@ -90,7 +92,8 @@ footer {
     background-image: linear-gradient(to right,darkslategrey, green);
     background-color: rgb(78, 159, 61);
     color: whitesmoke;
-    position:absolute;
-    bottom:0;
-    width:100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
 }
