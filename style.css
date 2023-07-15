@@ -1,4 +1,42 @@
 
+/* TOP BAR STUFF */
+
+/* the background color of the top bar */
+.top-bar {
+    background-image: linear-gradient(to right,darkslategrey, green);
+    overflow: hidden;
+    /* position: fixed; */
+    /* margin-top: 100px; */
+    width: 100%;
+    top: 0px;
+    clear: both;
+}
+
+/* how links inside the top bar look like */
+.top-bar a {
+    float: left;
+    color: whitesmoke;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*!* color changes when code is hovered over *!*/
+.top-bar a:hover {
+    background-color: whitesmoke;
+    color: rgb(51, 48, 228);
+}
+
+/*!* color that indicates what part of the site you are on *!*/
+/*.top-bar a.active {*/
+/*    background-color: green;*/
+/*    color: black;*/
+/*}*/
+
+/* BODY STUFF */
+
 h1 {
     font-size: 50px;
     color:rgb(78, 159, 61);
@@ -32,8 +70,20 @@ a{
 
 #PC {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+}
+
+#PC div {
+    position: relative;
+    clear: both;
+}
+
+#PC h1 {
+    /* padding-top: 100px; */
+    /* margin-bottom: 800px; */
+}
+
+#PC img {
     width: 30%;
 }
 
@@ -46,4 +96,3 @@ footer {
     bottom:0;
     width:100%;
 }
-
