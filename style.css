@@ -9,7 +9,6 @@
     /* margin-top: 100px; */
     width: 100%;
     top: 0px;
-    clear: both;
 }
 
 /* how links inside the top bar look like */
@@ -55,7 +54,7 @@ h2 {
 
 p {
     font-size: 25px;
-color: rgb(19, 0, 90);
+    color: rgb(19, 0, 90);
 }
 
 body {
