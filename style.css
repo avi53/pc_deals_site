@@ -5,8 +5,7 @@
 .top-bar {
     background-image: linear-gradient(to right,darkslategrey, green);
     overflow: hidden;
-    /* position: fixed; */
-    /* margin-top: 100px; */
+    margin-bottom: 0px;
     width: 100%;
     top: 0px;
 }
@@ -73,13 +72,14 @@ a{
 }
 
 #PC div {
+    padding: 0;
     position: relative;
     clear: both;
 }
 
 #PC h1 {
-    /* padding-top: 100px; */
-    /* margin-bottom: 800px; */
+    padding: 0;
+    margin: 0;
 }
 
 #PC img {
