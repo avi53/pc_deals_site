@@ -3,23 +3,27 @@
 .top-bar {
     background-image: linear-gradient(to right,darkslategrey, green);
     overflow: hidden;
+    position:fixed;
+    top:0;
+    width:100%;
 }
 
 /* how links inside the top bar look like */
 .top-bar a {
     float: left;
-    color: black;
-    text-align: center;
+    color: whitesmoke;
     padding: 15px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 /*!* color changes when code is hovered over *!*/
-/*.top-bar a:hover {*/
-/*    background-color: darkgreen;*/
-/*    color: darkslategrey;*/
-/*}*/
+.top-bar a:hover {
+    background-color: whitesmoke;
+    color: rgb(51, 48, 228);
+}
 
 /*!* color that indicates what part of the site you are on *!*/
 /*.top-bar a.active {*/

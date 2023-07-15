@@ -1,0 +1,11 @@
+/* bg color of sidebar */
+.w3-sidebar {
+    z-index: 1;
+    background-color: black;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000000 !important;
+    background-color: #b7aaa3 !important;
+    z-index: 1!important;
+}
