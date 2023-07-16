@@ -1,11 +1,17 @@
 /* bg color of sidebar */
-w3-dropdown-click{
-    z-index: 1;
+.w3-dropdown-click{
     color: green;
-    margin-top: 41.5px;
+    /*margin-top: 41.5px;*/
+
+}
+
+.w3-sidebar {
+    position: absolute!important;
+    top: 52px;
+    height:250%;
 }
 
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
-    position: absolute;
     background-image: linear-gradient(to right,darkslategrey, green);
+
 }
